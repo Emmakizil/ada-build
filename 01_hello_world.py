@@ -4,5 +4,5 @@ print("hello, world")
 print("Welcome to Ada!")
 print("we're so glad you're here.")
 
-# use \n to seprate two lines.
+# use \n to seperate two lines. No space needed before and after \n
 print("Welcome to Ada!\nwe're so glad you're here.")
