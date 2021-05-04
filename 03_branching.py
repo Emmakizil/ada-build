@@ -52,29 +52,3 @@ if coffee and good_sleep:
     print("It's going to be a great day!")
 else:
     print("Eh. Today's going to be a wash.")
-
-#Rock, Paper, Scissors
-player1 = "scissors"
-player2 = "scissors"
-
-if player1 == 'paper':
-    if player2 == 'rock':
-     print("Player 1 won!")
-    elif player2 == "scissors":
-        print("player 2 won!")
-    else:
-        print("It's a tie!")
-elif player1 == 'rock':
-    if player2 == 'paper':
-        print("Player 2 won!")
-    elif player2 == "scissors":
-        print("player 1 won!")
-    else:
-        print("It's a tie!")
-elif player1 == 'scissors':
-    if player2 == 'rock':
-         print("Player 2 won!")
-    elif player2 == "paper":
-        print("player 2 won!")
-    else:
-        print("It's a tie!")
