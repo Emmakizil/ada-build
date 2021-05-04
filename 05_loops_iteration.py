@@ -67,6 +67,3 @@ def total_even_numbers(number):
         if num % 2 == 0:
             sum = sum + num
     return sum
-
-test = total_even_numbers
-print(test(10))
