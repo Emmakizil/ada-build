@@ -52,4 +52,23 @@ for i in range(len(veggies)):
     if len(veggies[i])>5:
         print(f"I love {veggies[i]}")
 
-print("Hello")
+# problem 1.1
+# random_data = ["b", "a", 1, 3, 99, "c"]
+# print(random_data[4])
+# print(random_data[2] + 10)
+# print(random_data[1] + random_data[0])
+
+# problem 1.2
+# numeric_data = []
+# numeric_data.append(2)
+# numeric_data.append(4)
+# numeric_data.append(6)
+# numeric_data.append(8)
+ 
+# print(len(numeric_data))
+# print(numeric_data[1])
+
+# problem 1.3
+# my_list = ["dog", 5, "cat", 2, "horse", 1]
+# print(my_list[6]) #out of range error
+# print(my_list[-1])
