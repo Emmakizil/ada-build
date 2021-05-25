@@ -1,6 +1,9 @@
 import random
 
-student_name = ["ROSIE MARTINEZ", "JOE LIU", "SALLY SUE", "BOB JOHNSON", "DELIA AGHO"]
+student_name = []
+for i in range(5):
+    name = input("Enter student's first and last name? ")
+    student_name.append(name)
 
 student_ID = []
 for student in student_name:
